@@ -1,0 +1,128 @@
+body {
+    background-color: #f9fafc;
+    font-family: "Open Sans", sans-serif;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #69696a;
+  }
+  
+  ul:visited {
+    color: #69696a;
+  }
+  
+  li {
+    margin-top: 5px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  p {
+    border-left: #000000;
+    color: #69696a;
+  }
+  
+  .title {
+    margin: 0;
+    font-size: medium;
+  }
+  
+  p {
+    border-left: 2px solid #69696a;
+    padding: 7px;
+  }
+  
+  h2 {
+    font-weight: 460;
+    font-size: 35px;
+  }
+  
+  .button {
+    background-color: #000000;
+    color: #ffffff;
+    width: 100%;
+    border-radius: 5em;
+    display: block;
+    padding: 5px;
+    text-align: center;
+    margin-top: 10px;
+    font-size: smaller;
+  }
+  
+  @media only screen and (min-width:768px){
+  
+  
+   
+  h1{display: flex;
+  margin-top: 10px;}
+  
+    
+    .navbar{display: flex;
+      justify-content: flex-end;
+      align-content: center;
+  }
+  li{margin-top: -25px;
+    margin: 3px;
+    }
+    
+    
+    .button{margin-top: 10px;}
+    
+    p{width:50%; }
+    .section{display: flex;
+    justify-content: center;
+    justify-content: end;} 
+    
+    .circles{position: relative;
+      flex: auto;
+    }
+    
+    
+    .one{height: 130px;
+    width: 130px;
+    opacity: .8;
+    background-color:rgba(247, 136, 167, 0.6);
+    border-radius: 300%;
+    position: absolute;
+    right: 90px;
+    
+    top: -100px;
+    }
+    
+    .two{height: 100px;
+      width: 100px;
+      opacity: .8;
+      background-color:  rgba(247, 193, 162, 0.7);
+      border-radius: 600%;
+    position: absolute;
+    right: 50px;
+    top: -20px;}
+      
+      
+      .three{height: 70px;
+        width: 70px;
+        opacity: .9;
+        background-color: rgba(207, 130, 213, 0.6);
+        border-radius: 600%;
+      position: absolute;
+    right:55px;
+    top: -70px;}
+    
+    #desk{position: fixed;
+      left: 50%;
+      bottom: 10px;
+      transform: translate(-50%);
+      width: 10%;
+      
+    }
+    .button{margin: -2px;}
+    
+    }
+    
+    
+    
